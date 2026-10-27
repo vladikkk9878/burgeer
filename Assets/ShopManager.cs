@@ -20,7 +20,6 @@ public class ShopManager : MonoBehaviour
         }
     }
 
-    // Метод 1: Принимает массивы string и float, считает сумму
     public void CalculateAndPrintCart(string[] names, float[] prices)
     {
         Debug.Log("--- СОДЕРЖИМОЕ КОРЗИНЫ ---");
